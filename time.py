@@ -1,7 +1,7 @@
 from time import sleep
 from termcolor import colored
 
-handle = open("./lessons/lesson2.txt","r")
+handle = open("./lessons/vyrazy.txt","r")
 lst = handle.readlines()
 def NewWords():
     for dummy_i in lst:
